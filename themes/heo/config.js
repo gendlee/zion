@@ -28,9 +28,9 @@ const CONFIG = {
  // HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
- // HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-//  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
- // HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+ HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
+ HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
+ HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
 //  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -40,9 +40,9 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是zion，一个',
-    '🔍 科技宅',
-    '🏃 运动达人',
-    '🏠 AI布道者'
+    '🏠 科技宅',
+    '🏃‍♀️ 运动达人',
+    '🤖 AI布道者'
   ],
 
   // 个人资料底部按钮
@@ -127,8 +127,8 @@ const CONFIG = {
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
-  HEO_MENU_INDEX: true, // 显示首页
-  HEO_MENU_CATEGORY: true, // 显示分类
+  HEO_MENU_INDEX: false, // 显示首页
+  HEO_MENU_CATEGORY: false, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: true, // 显示归档
   HEO_MENU_SEARCH: true, // 显示搜索
@@ -143,7 +143,7 @@ const CONFIG = {
 
   HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
-  HEO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
+  HEO_ARTICLE_NOT_BY_AI: true, // 显示非AI写作
   HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
